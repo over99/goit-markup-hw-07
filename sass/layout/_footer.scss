@@ -1,0 +1,139 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.addres-list__adress-info:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.addres-list__contact-addres {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--contact-addres-text);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.addres-list__contact-list {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--contact-text-list);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.footer {
+    background: var(--background-footer);
+}
+
+.social-footer__connection {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-style: normal;
+    font-style: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-hero);
+}
+
+.all-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-form {
+    margin-left: auto;
+}
+
+.footer-form__footer-lable {
+    display: flex;
+
+}
+
+.subscription {
+    display: block;
+    margin-left: auto;
+}
+
+.subscription__footer-form-descr {
+    font-size: 14px;
+    font-weight: 700;
+
+    padding-bottom: 20px;
+
+    color: #ffffff;
+}
+
+.footer-form__footer-input-email {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    color: #ffffff;
+    background: var(--background-footer);
+
+    border-radius: 4px;
+    border: 1px rgba(255, 255, 255, 0.3) solid;
+
+    &:focus {
+        color: rgba(255, 255, 255, 0.3);
+    }
+}
+
+.footer-modal-btn {
+    @extend %align;
+    position: relative;
+    min-width: 200px;
+    height: 50px;
+
+    margin-left: 12px;
+
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    border: none;
+    color: var(--primary-text-color-them-dark);
+    background: var(--accent-color);
+    border-radius: 4px;
+
+    transition: var(--transition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--primary-text-color-them-dark);
+        background: var(--background-open-model-btn);
+    }
+}
+
+.footer-icon {
+    margin-left: 10px;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+    }
+}
+
+
+
