@@ -76,8 +76,6 @@
     font-size: 14px;
     font-weight: 700;
 
-    padding-bottom: 20px;
-
     color: #ffffff;
 }
 
@@ -85,6 +83,8 @@
     width: 358px;
     height: 50px;
     padding-left: 16px;
+    margin-top: 20px;
+
 
     color: #ffffff;
     background: var(--background-footer);
@@ -103,6 +103,7 @@
     min-width: 200px;
     height: 50px;
 
+    margin-top: 20px;
     margin-left: 12px;
 
     font-family: var(--primary-font);

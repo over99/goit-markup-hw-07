@@ -20,6 +20,9 @@
 
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    transition: var(--transition-dur-and-func);
+    transition: duration 250ms;
 
     padding: 0;
 }
